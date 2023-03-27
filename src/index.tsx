@@ -7,7 +7,7 @@ import { Navbar } from './components/Navbar';
 import { HeaderFilter } from './components/HeaderFilter';
 import { Projects } from './components/Projects';
 import { projects } from './assets/projects_list';
-import { Footer } from './components/Footer';
+import Footer from './components/Footer';
 // import { BrowserRouter, Routes } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
