@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 
-export function Navbar() {
+
+export function NavbarHeader() {
   const refreshPage = ()=>{
-    window.location.reload();
+    window.location.href="/";
  }
 
   return (

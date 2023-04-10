@@ -1,9 +1,12 @@
 import { Projects } from "../components/Projects";
 import { projects_list } from "../assets/projects_list";
+import { HeaderFilter } from "../components/HeaderFilter";
 
 export function HomePage() {
-    return (
-        <div
+  return (
+    <>
+      <HeaderFilter />
+      <div
         id="portfolio-grid"
         className="row no-gutter"
         data-aos="fade-up"
@@ -13,6 +16,6 @@ export function HomePage() {
           <Projects project={project} key={i} />
         ))}
       </div>
-    );
-  }
-  
+    </>
+  );
+}
