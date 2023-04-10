@@ -1,6 +1,6 @@
 import { Project } from "../types";
 
-export const projects: Project[] = [
+export const projects_list: Project[] = [
     {
         "chart_type": "Radar Chart, Small Multiples",
         "topic": "sport",
